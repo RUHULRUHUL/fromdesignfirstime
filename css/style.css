@@ -1,0 +1,164 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.containers{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+.logo a img{
+    width: 120px;
+
+}
+.navarea{
+    background-color: #e4ebeb;
+
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+.menu ul{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu ul li a{
+
+    color: white;
+    
+}
+.menu ul {
+display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+.menu a:hover{
+    background-color: turquoise;
+    color: #FFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.subcategory{
+    background-color: tomato;
+}
+
+.subcategory a{
+    position: absolute;
+}
+
+.subcategory a{
+    display: block;
+    display: none;
+
+}
+.subcategory a:hover{
+    background-color:violet;
+}
+.dropdown:hover .subcategory a{
+    display: block;
+}
+.reg_log{
+   
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    align-items: center;
+    
+}
+.reg_log .containers{
+
+}
+.sign_up {
+    /* text-align: center; */
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.sign_up .signup {
+    padding: 15px 106px;
+    background-color: #1AB188;
+    border: none;
+    color: white;
+}
+.sign_up .login {
+    padding: 15px 106px;
+    border: none;
+    background-color: #435259;
+    color: white;
+}
+.signupfree h4{
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+.inputname{
+    text-align: center;
+
+
+}
+.inputname .f_name{
+    padding: 10px 40px;
+    background-color: #F0FFFF;
+    border-width: 1px;
+
+}
+.inputname .l_name{
+    margin-top: 15px;
+    padding: 10px 40px;
+    background-color: #F0FFFF;
+    border-width: 1px;
+    border-radius: 3px;
+    
+}
+.email{
+    text-align: center;
+
+}
+.email input{
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 170px;
+    background-color: #F0FFFF;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.password{
+    text-align: center;
+}
+.password input{
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 170px;
+    background-color: #F0FFFF;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.buttonsubmit{
+    text-align: center;
+
+}
+.buttonsubmit button{
+
+    border: none;
+    margin-top: 25px;
+    padding: 15px 225px;
+    background-color: #1AB188;
+    border-width: 1px;
+    color: white;
+}
